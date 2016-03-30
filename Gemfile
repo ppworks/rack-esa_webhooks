@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in rack-github_webhooks.gemspec
+# Specify your gem's dependencies in rack-esa_webhooks.gemspec
 gemspec

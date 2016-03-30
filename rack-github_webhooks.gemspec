@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rack/github_webhooks/version'
+require 'rack/esa_webhooks/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'rack-github_webhooks'
-  spec.version       = Rack::GithubWebhooks::VERSION
-  spec.authors       = ['Chris Mytton']
-  spec.email         = ['chrismytton@gmail.com']
+  spec.name          = 'rack-esa_webhooks'
+  spec.version       = Rack::EsaWebhooks::VERSION
+  spec.authors       = ['Koshikawa']
+  spec.email         = ['koshikawa@ppworks.jp']
 
-  spec.summary       = 'Rack middleware to check GitHub webhooks are authentic'
-  spec.homepage      = 'https://github.com/chrismytton/rack-github_webhook'
+  spec.summary       = 'Rack middleware to check Esa webhooks are authentic'
+  spec.homepage      = 'https://github.com/ppworks/rack-esa_webhook'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

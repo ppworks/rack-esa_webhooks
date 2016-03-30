@@ -1,13 +1,13 @@
-# Rack::GithubWebhooks [![Build Status](https://travis-ci.org/chrismytton/rack-github_webhooks.svg?branch=master)](https://travis-ci.org/chrismytton/rack-github_webhooks)
+# Rack::EsaWebhooks [![Build Status](https://travis-ci.org/ppworks/rack-esa_webhooks.svg?branch=master)](https://travis-ci.org/ppworks/rack-esa_webhooks)
 
-Rack middleware for validating GitHub webhooks.
+Rack middleware for validating esa.io webhooks.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rack-github_webhooks'
+gem 'rack-esa_webhooks'
 ```
 
 And then execute:
@@ -16,16 +16,16 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rack-github_webhooks
+    $ gem install rack-esa_webhooks
 
 ## Usage
 
-Use it in your `config.ru` file, in your Sinatra app or in Rails' `config/routes.rb` file as you would any other Rack middleware. You need to provide a `secret` option which is the webhook secret you supplied when creating your GitHub webhook.
+Use it in your `config.ru` file, in your Sinatra app or in Rails' `config/routes.rb` file as you would any other Rack middleware. You need to provide a `secret` option which is the webhook secret you supplied when creating your esa.io webhook.
 
 ```ruby
-require 'rack/github_webhooks'
+require 'rack/esa_webhooks'
 
-use Rack::GithubWebhooks, secret: 's3cret'
+use Rack::EsaWebhooks, secret: 's3cret'
 ```
 
 ## Development
@@ -36,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/chrismytton/rack-github_webhooks.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ppworks/rack-esa_webhooks.
 
 
 ## License
