@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Koshikawa']
   spec.email         = ['koshikawa@ppworks.jp']
 
-  spec.summary       = 'Rack middleware to check Esa webhooks are authentic'
+  spec.summary       = 'Rack middleware to check esa webhooks are authentic'
   spec.homepage      = 'https://github.com/ppworks/rack-esa_webhook'
   spec.license       = 'MIT'
 
