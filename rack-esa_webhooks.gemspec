@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['koshikawa@ppworks.jp']
 
   spec.summary       = 'Rack middleware to check esa webhooks are authentic'
-  spec.homepage      = 'https://github.com/ppworks/rack-esa_webhook'
+  spec.homepage      = 'https://github.com/ppworks/rack-esa_webhooks'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
